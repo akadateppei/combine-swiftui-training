@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		C0BA9ABC264EE19300D95302 /* SomeSNSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9ABB264EE19300D95302 /* SomeSNSApp.swift */; };
-		C0BA9ABE264EE19300D95302 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9ABD264EE19300D95302 /* ContentView.swift */; };
+		C0BA9ABE264EE19300D95302 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9ABD264EE19300D95302 /* HomeView.swift */; };
 		C0BA9AC0264EE19500D95302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BA9ABF264EE19500D95302 /* Assets.xcassets */; };
 		C0BA9AC3264EE19500D95302 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BA9AC2264EE19500D95302 /* Preview Assets.xcassets */; };
 		C0BA9ACE264EE19600D95302 /* SomeSNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9ACD264EE19600D95302 /* SomeSNSTests.swift */; };
 		C0BA9AD9264EE19600D95302 /* SomeSNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AD8264EE19600D95302 /* SomeSNSUITests.swift */; };
+		C0BA9AE7264EE32C00D95302 /* CertificationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AE6264EE32C00D95302 /* CertificationListView.swift */; };
+		C0BA9AE9264EE63E00D95302 /* Mocks.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AE8264EE63E00D95302 /* Mocks.swift */; };
+		C0BA9AEB264EE9A300D95302 /* CertificationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AEA264EE9A300D95302 /* CertificationModel.swift */; };
+		C0BA9AED264EEA0500D95302 /* Certification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AEC264EEA0500D95302 /* Certification.swift */; };
+		C0BA9AEF264FD47700D95302 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AEE264FD47700D95302 /* Note.swift */; };
+		C0BA9AF1264FD52800D95302 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AF0264FD52800D95302 /* Comment.swift */; };
+		C0BA9AF3264FD60F00D95302 /* NotesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AF2264FD60F00D95302 /* NotesModel.swift */; };
+		C0BA9AF5264FD67200D95302 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AF4264FD67200D95302 /* NotesListView.swift */; };
+		C0BA9AF8264FFDB000D95302 /* UINavigationController+HideBackButtonText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AF7264FFDB000D95302 /* UINavigationController+HideBackButtonText.swift */; };
+		C0BA9AFB264FFED400D95302 /* NoteQuestionTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0BA9AFA264FFED400D95302 /* NoteQuestionTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +45,7 @@
 /* Begin PBXFileReference section */
 		C0BA9AB8264EE19300D95302 /* SomeSNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeSNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BA9ABB264EE19300D95302 /* SomeSNSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeSNSApp.swift; sourceTree = "<group>"; };
-		C0BA9ABD264EE19300D95302 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0BA9ABD264EE19300D95302 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C0BA9ABF264EE19500D95302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0BA9AC2264EE19500D95302 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C0BA9AC4264EE19500D95302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +55,16 @@
 		C0BA9AD4264EE19600D95302 /* SomeSNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomeSNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BA9AD8264EE19600D95302 /* SomeSNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeSNSUITests.swift; sourceTree = "<group>"; };
 		C0BA9ADA264EE19600D95302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0BA9AE6264EE32C00D95302 /* CertificationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationListView.swift; sourceTree = "<group>"; };
+		C0BA9AE8264EE63E00D95302 /* Mocks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mocks.swift; sourceTree = "<group>"; };
+		C0BA9AEA264EE9A300D95302 /* CertificationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationModel.swift; sourceTree = "<group>"; };
+		C0BA9AEC264EEA0500D95302 /* Certification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Certification.swift; sourceTree = "<group>"; };
+		C0BA9AEE264FD47700D95302 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		C0BA9AF0264FD52800D95302 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		C0BA9AF2264FD60F00D95302 /* NotesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesModel.swift; sourceTree = "<group>"; };
+		C0BA9AF4264FD67200D95302 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		C0BA9AF7264FFDB000D95302 /* UINavigationController+HideBackButtonText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+HideBackButtonText.swift"; sourceTree = "<group>"; };
+		C0BA9AFA264FFED400D95302 /* NoteQuestionTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteQuestionTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				C0BA9ABB264EE19300D95302 /* SomeSNSApp.swift */,
-				C0BA9ABD264EE19300D95302 /* ContentView.swift */,
+				C0BA9ABD264EE19300D95302 /* HomeView.swift */,
+				C0BA9AE6264EE32C00D95302 /* CertificationListView.swift */,
+				C0BA9AFA264FFED400D95302 /* NoteQuestionTabView.swift */,
+				C0BA9AF4264FD67200D95302 /* NotesListView.swift */,
+				C0BA9AF6264FFD8C00D95302 /* Extension */,
+				C0BA9AE8264EE63E00D95302 /* Mocks.swift */,
 				C0BA9ABF264EE19500D95302 /* Assets.xcassets */,
 				C0BA9AC4264EE19500D95302 /* Info.plist */,
 				C0BA9AC1264EE19500D95302 /* Preview Content */,
+				C0BA9AEA264EE9A300D95302 /* CertificationModel.swift */,
+				C0BA9AF2264FD60F00D95302 /* NotesModel.swift */,
+				C0BA9AEC264EEA0500D95302 /* Certification.swift */,
+				C0BA9AEE264FD47700D95302 /* Note.swift */,
+				C0BA9AF0264FD52800D95302 /* Comment.swift */,
 			);
 			path = SomeSNS;
 			sourceTree = "<group>";
@@ -128,6 +158,14 @@
 				C0BA9ADA264EE19600D95302 /* Info.plist */,
 			);
 			path = SomeSNSUITests;
+			sourceTree = "<group>";
+		};
+		C0BA9AF6264FFD8C00D95302 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C0BA9AF7264FFDB000D95302 /* UINavigationController+HideBackButtonText.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +297,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BA9ABE264EE19300D95302 /* ContentView.swift in Sources */,
+				C0BA9ABE264EE19300D95302 /* HomeView.swift in Sources */,
+				C0BA9AF8264FFDB000D95302 /* UINavigationController+HideBackButtonText.swift in Sources */,
 				C0BA9ABC264EE19300D95302 /* SomeSNSApp.swift in Sources */,
+				C0BA9AE7264EE32C00D95302 /* CertificationListView.swift in Sources */,
+				C0BA9AFB264FFED400D95302 /* NoteQuestionTabView.swift in Sources */,
+				C0BA9AF1264FD52800D95302 /* Comment.swift in Sources */,
+				C0BA9AEB264EE9A300D95302 /* CertificationModel.swift in Sources */,
+				C0BA9AE9264EE63E00D95302 /* Mocks.swift in Sources */,
+				C0BA9AEF264FD47700D95302 /* Note.swift in Sources */,
+				C0BA9AED264EEA0500D95302 /* Certification.swift in Sources */,
+				C0BA9AF5264FD67200D95302 /* NotesListView.swift in Sources */,
+				C0BA9AF3264FD60F00D95302 /* NotesModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,7 +24,6 @@ struct CertificationListView: View {
                 }
                 .navigationBarTitle("資格一覧")
                 .listStyle(GroupedListStyle())
-                Spacer()
             }
         }.navigationViewStyle(StackNavigationViewStyle())
     }

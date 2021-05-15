@@ -32,6 +32,10 @@ struct NoteQuestionTabView: View {
 
     init(certificationName: String) {
         self.certificationName = certificationName
+
+        UISegmentedControl.appearance().selectedSegmentTintColor = .systemGreen
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.white], for: .selected)
+        UISegmentedControl.appearance().setTitleTextAttributes([.foregroundColor: UIColor.systemGreen], for: .normal)
     }
 }
 

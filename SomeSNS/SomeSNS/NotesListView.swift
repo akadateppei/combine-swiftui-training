@@ -43,6 +43,12 @@ struct NotesListView: View {
             Spacer()
         }
         .padding(.top, 50)
+        .navigationBarItems(trailing: Button(action: {
+
+        }, label: {
+            Image(systemName: "plus.circle.fill")
+                .font(.title)
+        }))
     }
 }
 
